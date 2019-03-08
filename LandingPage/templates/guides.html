@@ -1,0 +1,86 @@
+{% extends 'base.html' %}
+{% block title %}GoFish- For Guides{% endblock %}
+{% block background %}allbg{% endblock %}
+{% block content %}
+<div class="container-fluid">
+    <div class="row">
+
+        <div class="col-lg-5 left">
+
+
+            <h2 class="accent soon">Coming this Spring</h2>
+            <h1 class="header">Get notified when <span class="nowrap">Go Fish</span> goes live</h1>
+            <p> <i class="accent">Go Fish for Guides</i> helps Fishing Guides do what they love by making the mundane easier to
+                tackle in one place.
+
+            </p>
+
+            <form action="/" method="post">
+                <div class="form-group">
+                    {% csrf_token %}
+                    {{ form }}
+                    <button type="submit" class="btn btn-outline-secondary btn-lg">Submit</button>
+                </div>
+
+            </form>
+
+        </div>
+<div class="col-lg-1">
+
+</div>
+
+        <div class="col-lg-6">
+            <div class="row">
+                <div class="col-sm-6">
+                    <p class="subtitle">
+                        <i class="far fa-calendar-alt fa-3x"></i>
+                    </p>
+                    <h1 class="accent center">Book Trips</h1>
+                    <p class="copy">
+                        Get fully-booked without double-booking, and do it all in one place. You can book a trip, or
+                        they
+                        can do it for you. Half-day, full-day. Deep-sea or bay. Whatever you provide, Go Fish can help
+                        you
+                        track your bookings.
+                    </p>
+                </div>
+                <div class="col-sm-6">
+                    <p class="subtitle">
+                        <i class="fas fa-camera fa-3x"></i>
+                    </p>
+                    <h1 class="accent center">Post Fishing Reports</h1>
+                    <p class="copy">
+                        Gain the confidence of future customers and show off your amazing catches by posting reports.
+                        The proof is in the catch, and Go Fish can give you a trophy-case to get more anglers into your
+                        boat.
+                </div>
+                <div class="col-sm-6">
+                    <p class="subtitle">
+                        <i class="fas fa-dollar-sign fa-3x"></i>
+                    </p>
+                    <h1 class="accent center">Process Payments</h1>
+                    <p class="copy">
+                        We know you bust your ass for every dollar that you get paid. But that doesn’t mean processing
+                        payments is easy. Go Fish for Guides can make getting paid less a chore, for you and your
+                        clients.
+                    </p>
+                </div>
+                <div class="col-sm-6">
+                    <p class="subtitle">
+                        <i class="fas fa-chart-line fa-3x"></i>
+                    </p>
+                    <h1 class="accent center">Track Costs & Earnings</h1>
+                    <p class="copy">Manage the dollars coming in and the dollars going out all in one place. Being an
+                        accountant is a pain in the ass. Use our dummy-proof tools to help you enjoy being a fishing
+                        guide again.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+</div>
+
+{% endblock %}

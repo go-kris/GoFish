@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans');
+@import url('https://fonts.googleapis.com/css?family=Exo');
+
+
+.allbg {
+    background: linear-gradient(rgba(51, 63, 72, .9), rgba(51, 63, 72, .9)), url(../img/gofishbackground.jpeg) no-repeat center center fixed transparent;
+    background-size: cover;
+    height: 100%;
+    overflow: auto;
+    width: 100%;
+
+}
+
+.choosebg {
+    background: radial-gradient(circle closest-corner at center, rgba(51, 63, 72, .990), rgba(51, 63, 72, 1)), url(../img/gofish-logo-bg.png) no-repeat center fixed transparent;
+    background-size: cover;
+    height: 100%;
+    overflow: auto;
+    width: 100%;
+
+}
+
+@media (min-width: 991px) {
+    .container-fluid {
+        padding: 2% 7%;
+    }
+}
+
+@media (max-width: 544px) {
+    .header {
+        font-size: 1em;
+    }
+}
+
+.container-fluid {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.navbar {
+     background:transparent;
+  background-image:none;
+  border-color:transparent;
+  box-shadow:none;
+}
+.accent {
+    color: #97D700;
+}
+
+.logo {
+    height: auto;
+    width: auto;
+    max-height: 100px;
+    display: block;
+}
+
+
+.soon {
+    font-size: 1.7em;
+    font-weight: 700;
+    margin-top: 14%;
+}
+
+.header {
+    font-weight: 100;
+    font-size: 4em;
+    font-family: 'Exo', sans-serif;
+    color: white;
+}
+
+p {
+    font-size: 1.5em;
+    font-family: 'Noto Sans', sans-serif;
+    color: white;
+    margin: auto;
+}
+
+.copy {
+    font-size: 1em;
+    font-family: 'Noto Sans', sans-serif;
+    color: white;
+    text-align: center;
+!important;
+}
+
+.subtitle {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 15px;
+}
+
+.center {
+    text-align: center;
+    font-size: 2em;
+    font-family: 'Exo', sans-serif;
+    font-weight: bold;
+}
+
+.submit {
+    background: #fff !important;
+    color: rgba(51, 63, 72, 0);
+    border: gray;
+    margin-right: 10px;
+
+}
+
+.btn {
+    margin-top: 15px;
+    color: white;
+        font-family: 'Exo', sans-serif;
+}
+
+.thing {
+    width: 100%;
+}
+
+.form-group {
+    padding-top: 20px;
+}
+.left{
+    max-width:657px;
+}
+.nowrap {
+  white-space: nowrap ;
+}
+.form-control {
+   max-width: 355px;
+}
+.chooseheader {
+    color: white;
+    font-family: 'Exo', sans-serif;
+    font-size: 4em;
+}
+
+.choosecontainer {
+    padding-top: 15%;
+    text-align: center;
+}
+
+.choose-button {
+    margin-top: 50px;
+    color: #97D700;
+    border-color: #97D700;
+    padding: 15px;
+    min-width: 250px;
+    font-size: 1.4em;
+    border-width: 4px;
+        font-family: 'Exo', sans-serif;
+}
+
+.choose-button:hover {
+    color: #97D700;
+    border-color: transparent;
+    background-color: #333F48;
+        font-family: 'Exo', sans-serif;
+}

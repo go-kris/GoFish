@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+
+{% block title %}GoFish{% endblock %}
+{% block background %}choosebg{% endblock %}
+{% block content %}
+    <div class="container">
+        <div class="choosecontainer">
+            <h1 class="chooseheader">I am a...</h1>
+            <div class="row">
+                <div class="col-lg-2"></div>
+                <div class="col-lg-3">
+                    <a href="/guides/"><button type="submit" class="btn btn-outline-secondary btn-lg choose-button">FISHING GUIDE</button></a>
+                </div>
+                <div class="col-lg-2"></div>
+                <div class="col-lg-3">
+                    <a href="/fisherman/"><button type="submit" class="btn btn-outline-secondary btn-lg choose-button">FISHERMAN</button></a>
+                </div>
+                <div class="col-lg-2"></div>
+            </div>
+            </div>
+        </div>
+
+{% endblock %}
